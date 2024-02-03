@@ -1,0 +1,14 @@
+2024-02-02 22:38:19.707372-06:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM USERS\000d\000a[*]SELECT * FROM BIKES\000d\000aSELECT * FROM USER_ROLES\000d\000aSELECT * FROM USER_BIKES"; SQL statement:
+SELECT * FROM USERS
+SELECT * FROM BIKES
+SELECT * FROM USER_ROLES
+SELECT * FROM USER_BIKES [42000-224]
+2024-02-02 22:39:25.668537-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2024-02-02 22:39:46.334487-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2024-02-02 22:39:53.478065-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2024-02-02 22:40:17.330482-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
